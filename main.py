@@ -116,10 +116,11 @@ async def V(C_obj, U_obj, m_obj, d, link_type, u):
 
 @X.on_message(F.command("start"))
 async def sex(C_obj, m: M):
-    await m.reply_text("🚀✨ ʜᴇʏ! ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ Sᴀᴠᴇ Rᴇsᴛʀɪᴄᴛᴇᴅ ʙᴏᴛ! ✨🚀
-🔐 ʏᴏᴜʀ ғɪʟᴇs ᴀʀᴇ ɴᴏᴡ ʜᴀɴᴅʟᴇᴅ ᴡɪᴛʜ ꜱᴛʏʟᴇ ᴀɴᴅ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ! 💾
-⚡ ᴇɴʟɪɢʜᴛ ʏᴏᴜʀ ᴄʀᴇᴀᴛɪᴠɪᴛʏ ᴀɴᴅ ᴇɴᴊᴏʏ ᴛʜᴇ ꜱᴍᴏᴏᴛʜ ᴘʀᴏᴄᴇss! 💡
-👑 ᴘᴏᴡᴇʀᴇᴅ ʙʏ Pʀɪɴᴄᴇ 👑")
+    await m.reply_text(
+    "🚀✨ ʜᴇʏ! ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ Sᴀᴠᴇ Rᴇsᴛʀɪᴄᴛᴇᴅ ʙᴏᴛ! ✨🚀\n"
+    "🔐 ʏᴏᴜʀ ғɪʟᴇs ᴀʀᴇ sᴀғᴇ & sᴇᴄᴜʀᴇ ᴡɪᴛʜ ᴜs! 🔥\n"
+    "⚡ ᴅʀᴏᴘ ʏᴏᴜʀ ʟɪɴᴋ ᴀɴᴅ ʟᴇᴛ'ꜱ ɢᴇᴛ ꜱᴛᴀʀᴛᴇᴅ! 🎯"
+)
 
 @X.on_message(F.command("batch"))
 async def B(C_obj, m: M):
