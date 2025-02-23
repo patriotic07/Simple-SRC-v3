@@ -163,8 +163,8 @@ async def H(C_obj, m: M):
         Z[U].update({"step": "process", "did": d_chat})
         I, start_msg_id, N_val, link_type = Z[U]["cid"], Z[U]["sid"], Z[U]["num"], Z[U]["lt"]
         R_count = 0
-        pt = await m.reply_text("⏳✨ Pʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ... 🔄🚀
-🛠️ Pʟᴇᴀsᴇ ʜᴏʟᴅ ᴏɴ ᴘᴀᴛɪᴇɴᴛʟʏ, ʏᴏᴜʀ ғɪʟᴇ ɪs ʙᴇɪɴɢ ᴘʀᴏᴄᴇssᴇᴅ! 🎯💫")
+        pt = await m.reply_text("""⏳✨ Pʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ... 🔄🚀
+🛠️ Pʟᴇᴀsᴇ ʜᴏʟᴅ ᴏɴ ᴘᴀᴛɪᴇɴᴛʟʏ, ʏᴏᴜʀ ғɪʟᴇ ɪs ʙᴇɪɴɢ ᴘʀᴏᴄᴇssᴇᴅ! 🎯💫""")
         for i in range(N_val):
             msg_id = start_msg_id + i
             msg_obj = await J(C_obj, Y, I, msg_id, link_type)
