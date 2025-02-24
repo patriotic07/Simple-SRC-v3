@@ -3,12 +3,12 @@ from pyrogram import Client as C, filters as F
 from pyrogram.types import Message as M
 import time
 import asyncio
-from config import API_ID as A, API_HASH as H, BOT_TOKEN as T, SESSION as S, OWNER_ID  # add your owner id here
+from config import API_ID as A, API_HASH as H, BOT_TOKEN as T, SESSION as S, OWNER_ID, PRIVATE_CHANNEL, FORCE_SUBS_CHANNEL
 
 # Set your private channel backup chat id here:
-PRIVATE_CHANNEL = "YOUR_PRIVATE_CHANNEL_CHAT_ID"  # e.g., "-1001234567890"
+PRIVATE_CHANNEL = ""  # e.g., "-1001234567890"
 # Set your forced subscription channel id or username
-FORCE_SUBS_CHANNEL = "YOUR_FORCE_SUBS_CHANNEL"  # e.g., "@yourchannel"
+FORCE_SUBS_CHANNEL = "-1002353205836"  # e.g., "@yourchannel"
 
 # Authorized users dictionary: {user_id: "free" or "premium"}
 AUTHORIZED_USERS = {}  # owner can add or remove users dynamically
