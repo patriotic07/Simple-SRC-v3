@@ -6,7 +6,7 @@ import asyncio
 from config import API_ID as A, API_HASH as H, BOT_TOKEN as T, SESSION as S, OWNER_ID, PRIVATE_CHANNEL, FORCE_SUBS_CHANNEL
 
 # Set your private channel backup chat id here:
-PRIVATE_CHANNEL = ""  # e.g., "-1001234567890"
+PRIVATE_CHANNEL = "-1002396692956"  # e.g., "-1001234567890"
 # Set your forced subscription channel id or username
 FORCE_SUBS_CHANNEL = "-1002353205836"  # e.g., "@yourchannel"
 
