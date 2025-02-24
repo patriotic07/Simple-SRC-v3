@@ -174,6 +174,21 @@ async def start_handler(C_obj, m: M):
         "⚡ ᴅʀᴏᴘ ʏᴏᴜʀ ʟɪɴᴋ ᴀɴᴅ ʟᴇᴛ'ꜱ ɢᴇᴛ ꜱᴛᴀʀᴛᴇᴅ! 🎯\n\n"
         "Note: You must be authorized and subscribed to use all features."
     )
+@X.on_message(F.command("help"))
+async def help_handler(C_obj, m: M):
+    help_text = (
+        "🤖 **Bot Commands:**\n\n"
+        "📌 `/start` - Bot ka introduction dekhein\n"
+        "📌 `/help` - Yeh help message dekhne ke liye\n"
+        "📌 `/join <channel_link>` - Userbot se kisi channel ya group ko join karne ke liye\n"
+        "📌 `/batch` - Ek se zyada messages extract aur forward karne ke liye\n"
+        "📌 `/cancel` - Current process ko cancel karne ke liye\n"
+        "📌 `/adduser <user_id> <free/premium>` - (Owner only) Ek user ko authorize karne ke liye\n"
+        "📌 `/removeuser <user_id>` - (Owner only) Ek user ko remove karne ke liye\n"
+        "📌 `/stats` - (Owner only) Bot ke total users ka stats check karne ke liye\n\n"
+        "⚡ **Note:** Agar aapko koi problem aaye toh owner se contact karein!"
+    )
+    await m.reply_text(help_text)
 
 # Owner-only command to add authorized users
 @X.on_message(F.command("adduser"))
